@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Montserrat Personal;
+    src: url(./assets/fonts/Montserrat-MediumItalic.ttf);
+}
+
+html,body{
+    overflow-x: hidden;
+    width: 100%;
+    font-family: Montserrat Personal;
+    font-style: normal;
+    font-size: 16px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 22px 279px -10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: -11px 1px -360px -69px;
+    padding: 5px 22px 279px 5px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    size: 80px;
+    margin: 100px 50px 80px 100px;
+}
+.logo img{
+    width: 500px;
+    height: 500px;
+    margin: 80px 10px 80px -367px;
+}
+
+h1{
+    margin: 45px 70px 124px 147px;
+    padding: 1px 1px 1px 1px;
+}
+h2 {
+    background: #569099;
+    padding: 10px;
+    color: #fff;
+   }
+   p {
+    background: #cad8d0;
+    padding: 10px;
+   }
+   sidebar{
+    margin: 20px 20px 20px 20px;
+    padding: 30px 30px 30px 30px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 10px 0 0;
+}
+
+nav li{
+    padding: 46px 40px 0 0;
+}
+.main{
+    margin-right: 40%;
+}
+
+footer{
+    margin: 0 10px 0 10px;
+}
+a:hover{
+    color:blue;
+}
+.textlink:hover{
+color: brown;
+}
+.text_link{
+    color: red;
+}
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: -33px 27px 4px -362px; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: -11px 8 85px 23px; /* Отступы вокруг картинки */
+   }
